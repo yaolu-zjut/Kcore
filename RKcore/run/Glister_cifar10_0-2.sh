@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python -u main.py --fraction 0.2 --dataset CIFAR10 --data_path /public/MountData/dataset/cifar10 --num_exp 3 --workers 5 --optimizer SGD -se 10 --selection Glister --model ResNet18 --lr 0.1 -sp ./result --batch 128

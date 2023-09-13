@@ -1,0 +1,1 @@
+python train.py --gpu 0 --arch ResNet18 --set cifar10 --lr 0.1 --batch_size 128 --weight_decay 0.0005 --epochs 200  --num_classes 10
